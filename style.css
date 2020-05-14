@@ -1,0 +1,140 @@
+.navbar{
+   height:80px;
+   padding: 0px 10% 0px 10%;
+}
+
+.navbar-brand span{
+    display: block;
+}
+
+.brand-brand-text{
+    font-family: 'Lato';
+    font-size: 17px;
+}
+
+.navbar-dark{
+    background-color: #1C2321 !important;
+}
+
+.bg-dark{
+    background-color: #1C2321 !important;
+}
+
+.navbar-dark, .navbar-nav, .nav-link{
+    color:#E6E6E6 !important;
+}
+
+.full-width{
+    width: 100%;
+    
+}
+
+.lg-picture-text{
+    display:block;
+    
+    font-family: 'Lato';
+}
+
+.lg-picture-text span{
+    display:block;
+}
+
+.btn-outline{
+    background-color:rgba(255, 255, 255, 0);
+    border:white;
+    border-radius: -56% !important;
+    border: 1px solid #E6E6E6;
+    position: absolute;
+    top:50%;
+    left:10%;
+}
+
+
+    .full-width{
+        width: 100%;
+    }
+
+    .picture-block, .full-width{
+        position: relative;
+    }
+
+    .picture-block, img{
+        max-height: 930px;
+        overflow: hidden;
+    }
+
+    .picture-block .main-text{
+        font-family: 'Lato';
+        font-weight: 700;
+        position: absolute;
+        z-index: 999;
+        top:35%;
+        left:10%;
+        font-size: 60px;
+        line-height: 1;
+        
+    }
+
+    
+
+  
+
+    .picture-block .sub-text{
+        position: absolute;
+        top:46%;
+        left:10%;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .picture-block  .main-text-low-left{
+        top:45% !important;
+    }
+
+    .picture-block .sub-text-low-left{
+        top:59% !important;
+    }
+
+    .picture-block button, .button-low-left{
+        top:65% !important;
+    }
+   
+    .picture-block .main-text-top-left{
+        top:35% !important;
+    }
+    .picture-block .sub-text-top-left{
+        top:49% !important;
+    }
+    .picture-block .button-top-left{
+        top:55% !important;
+    }
+
+    .picture-block .main-text-mid-left{
+        top:35% !important;
+        left: 30% !important;
+        text-align: right;
+    }
+    .picture-block .sub-text-mid-left{
+        top:49% !important;
+        left: 30% !important;
+    }
+    .picture-block .button-mid-left{
+        top:55% !important;
+        left: 39% !important;
+    }
+
+    .light-text{
+        color:#E6E6E6;
+    }
+
+    .page-footer{
+        background-color: #1C2321;
+        height:466px;
+        color:#E6E6E6;
+    }
+
+    .list-unstyled a{
+        color:#E6E6E6;
+    }

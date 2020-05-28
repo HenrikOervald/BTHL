@@ -1,0 +1,128 @@
+//mobile
+@media only screen and (min-width: 361px) {
+    .main-content-wrapper {
+        position: relative;
+
+
+        .main-content-block {
+            position: relative;
+
+            .image-wrapper {
+                height: 634px;
+                width: 100%;
+
+                .image-holder {
+                    background-image: url('../../img/test.jpg');
+                    background-size: cover;
+                    height: 100%;
+                }
+
+                .image-holder2 {
+                    background-image: url('../../img/microphone-web.jpeg');
+                    background-size: cover;
+                    height: 100%;
+                }
+
+                .image-holder3 {
+                    background-image: url('../../img/buildings.jpeg');
+                    background-size: cover;
+                    height: 100%;
+                }
+            }
+
+            .image-wrapper:nth-of-type(2) {
+                height: 630px !important;
+                width: 100%;
+            }
+
+            .text-wrapper {
+                position: absolute;
+                top: 60%;
+                width: 90%;
+                margin-left: 5%;
+                margin-right:5%;
+
+                .main-text {
+                    font-family: 'Lato';
+                    font-weight: 800;
+                    font-size: 37px;
+                    line-height: 1;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .main-text.text-large {
+                    font-size: 41px;
+                }
+
+                .sub-text {
+                    font-family: 'Lato';
+                    font-size: 15px;
+                }
+
+                button {
+                    background-color: #0069D7;
+                    border: none;
+                    width: 150px;
+                    height: 34px;
+                    color: white;
+                }
+            }
+
+            
+
+            .text-mid {
+                top: 253px;
+                text-align: end;
+            }
+
+            .white {
+                color: white;
+            }
+        }
+    }
+}
+
+//tablet
+@media only screen and (min-width: 568px) {
+
+    .main-content-wrapper {
+        .main-content-block {
+
+
+            .image-wrapper {
+                height: 930px;
+                .image-holder{
+                    background: url('../../img/fill6-web.jpg') no-repeat right right;
+                }
+            }
+
+            .text-wrapper {
+                .main-text {
+                    font-size: 50px;
+                }
+
+                .main-text.text-large{
+                    font-size: 70px;
+                }
+
+                .sub-text {
+                    font-size: 25px;
+                }
+            }
+
+            .text-mid {
+                top: 320px;
+            }
+        }
+
+    }
+}
+
+//desktop
+@media only screen and (min-width: 1366px) {}
+
+//large picture mode
+@media only screen and (min-width: 1921) {}

@@ -1,0 +1,31 @@
+//mobile
+@media only screen and (min-width: 100px) {
+    .page-footer{
+        background-color: $nav-color !important;
+        color:white;
+
+        .footer-copyright{
+            color:$copyright-color;
+        }
+
+        a{
+            color:$link-color;
+            font-size:22px;
+        }
+    }
+}
+
+//tablet
+@media only screen and (min-width: 568px){
+
+}
+
+//desktop
+@media only screen and (min-width: 1366px){
+
+}
+
+//large picture mode
+@media only screen and (min-width: 1921){
+
+}

@@ -1,0 +1,26 @@
+//import @util
+@import 'util/functions';
+@import 'util/mixins';
+@import 'util/variables';
+
+//import  @base
+@import 'base/reset';
+@import 'base/typography';
+
+//import @components
+@import 'components/buttons';
+@import 'components/carousel';
+
+//import @layout
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/content-blocks';
+
+//import @pages
+@import 'pages/home';
+@import 'pages/product';
+@import 'pages/tour';
+@import 'pages/contact';
+
+

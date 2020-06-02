@@ -21,7 +21,7 @@ Attribution required
 
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
 
     /* Show 3rd slide on sm  if col-sm-6*/
     .carousel-inner .active.col-sm-6.carousel-item+.carousel-item+.carousel-item {
@@ -90,7 +90,7 @@ Attribution required
 }
 
 /*MD*/
-@media (min-width: 773px) {
+@media (min-width: 767px) {
 
     /* show 3rd of 3 item slide */
     .carousel-inner .active+.carousel-item+.carousel-item {

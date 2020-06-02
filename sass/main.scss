@@ -1,7 +1,10 @@
 //import @util
+@import 'util/variables';
 @import 'util/functions';
 @import 'util/mixins';
-@import 'util/variables';
+
+//import @bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 //import  @base
 @import 'base/reset';
@@ -12,6 +15,7 @@
 @import 'components/carousel';
 
 //import @layout
+@import 'layout/wrappers';
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
@@ -22,5 +26,3 @@
 @import 'pages/product';
 @import 'pages/tour';
 @import 'pages/contact';
-
-

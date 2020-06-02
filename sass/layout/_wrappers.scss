@@ -1,0 +1,49 @@
+//mobile
+@media only screen and (min-width: 100px) {
+    .main-content-wrapper.container-fluid{
+        margin:0;
+    }
+}
+
+//tablet
+@media only screen and (min-width: 568px){
+
+}
+
+//desktop
+@media only screen and (min-width: 1366px){
+
+}
+
+
+//large picture mode
+@media only screen and (min-width:1920px){
+    .nav-wrapper{
+        width:100%;
+        background-color:$nav-color;
+        .navbar{
+            max-width: 1920px;
+            margin:auto;
+            padding-right:0;
+            padding-left:0;
+
+            a:last-of-type{
+                margin-right: 0 !important;
+                
+            }
+
+            .navbar-brand{
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .custom-body-wrapper{
+        background-color: white;
+        .main-content-wrapper.container-fluid{
+        
+        margin:auto;
+        background-color:white;
+        }
+    }
+}

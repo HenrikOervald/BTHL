@@ -4,6 +4,11 @@
         background-color: $nav-color !important;
         color:white;
 
+        ul{
+            font-weight: 300;
+            font-family:'Lato';
+        }
+
         .footer-copyright{
             color:$copyright-color;
         }
@@ -17,6 +22,7 @@
 
 //tablet
 @media only screen and (min-width: 568px){
+    
 
 }
 
@@ -26,6 +32,5 @@
 }
 
 //large picture mode
-@media only screen and (min-width: 1921){
-
+@media only screen and (min-width: 1920px){
 }
